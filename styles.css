@@ -1,0 +1,141 @@
+body {
+    /* background-color: black; */
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.headname {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(175, 18, 18, 0.829);
+    font-size: xx-large;
+}
+
+.first_section {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+section {
+    height: 500px;
+}
+
+.half_width {
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+    padding-left: 2%;
+    /* border: 1px solid black; */
+}
+
+.half_width img {
+    width: 100%;
+}
+
+.heading_text {
+    padding: 7% 2%;
+    margin-bottom: 10px;
+}
+
+.moeen-img {
+    margin-left: 30px;
+}
+
+.btn-top {
+    text-decoration: none;
+    margin-top: 10px;
+    background-image: linear-gradient(90deg, red,pink);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.second_text {
+    padding: 7% 2%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.second_section {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+#my_work {
+    text-align: center;
+    margin: 60px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sec3_images {
+    float: left;
+    width:25%;
+    padding: 50px 20px;
+}
+.third {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.third_section {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#client_review {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 20px 0px;
+}
+
+.cli_re {
+    text-align: center;
+    line-height: 15px;
+    margin-top: 60px;
+    font-size: small;
+    font-weight: 100;
+}
+
+.msg_me {
+    /* background-color: #af1212d3; */
+    background-image: linear-gradient(90deg, red,pink);
+    text-align: center;
+    margin: 5px 400px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.bold {
+    font-weight: bold;
+    font-size: large;
+}
+
+.cli_re {
+    text-align: center;
+    margin-top: 60px;
+
+}
+.descr {
+    text-align: center;
+    margin:40px 420px;
+
+}
+
+.forth_section {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
